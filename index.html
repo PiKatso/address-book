@@ -7,9 +7,23 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css"  type="text/css">
 
-    <title></title>
+    <title>Address Book</title>
   </head>
   <body>
-
+    <div class="jumbotron">
+      <h1>Address Book</h1>
+    </div>
+    <form class="user-input" action="index.html" method="post">
+      <label for="first-name">Please enter your first name.</label>
+      <input type="text" name="first-name" value="">
+      <br>
+      <label for="last-name">Please enter your last name.</label>
+      <input type="text" name="last-name" value="">
+      <br>
+      <button class="btn" type="submit" name="submit">Submit</button>
+    </form>
+    <div class="return-contact">
+      <ul id="contacts"></ul>
+    </div>
   </body>
 </html>
